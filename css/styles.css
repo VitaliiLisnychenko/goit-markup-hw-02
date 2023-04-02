@@ -208,6 +208,7 @@ body {
   letter-spacing: 0.04em;
   background-color: var(--cloud);
   color: var(--iris);
+  cursor: pointer;
 }
 .button-item:hover,
 .button-item:focus {
