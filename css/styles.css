@@ -68,7 +68,7 @@ body {
 }
 /**
   |============================
-  | Main
+  | Main Page1
   |============================
 */
 /*Hero section*/
@@ -164,7 +164,7 @@ body {
   | Footer
   |============================
 */
-.foter-secyion {
+.foter-section {
   background-color: var(--navy-blue);
 }
 .foot-logo {
@@ -174,6 +174,7 @@ body {
   font-size: 18px;
   display: flex;
   align-items: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
@@ -185,9 +186,45 @@ body {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  line-height: 1.17;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+}
+/**
+  |============================
+  | Main Page2
+  |============================
+*/
+.button-item {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+  color: var(--iris);
+}
+.button-item:hover,
+.button-item:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.project-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.project-class {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
